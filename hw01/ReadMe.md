@@ -5,3 +5,7 @@ on keyboard commands. The code prints out more directions when you run it.
 I coded in python and used the ncurses import. Ncurses was already present 
 on my board so I didn't have to install anything. I didn't include an 
 install.sh file because of this.
+
+// Comment from Prof. Yoder
+// Python code good, though I wasn't expecting the blank border on the left.
+// Grade:  10/10
