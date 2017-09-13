@@ -32,7 +32,7 @@ stdscr = curses.initscr() #Initialization for the curses import
 curses.noecho()
 curses.cbreak()
 
-position_x=10 #Keeps track of user position during game
+position_x=0 #Keeps track of user position during game
 position_y=0
 xnum = 1 #Used for the etch-a-sketch boundaries
 ynum = 1
@@ -52,6 +52,8 @@ def updateBoard(channel):
 	global position_y
 	global position_x
 	global SPACING
+	
+	time.sleep(0.03)
 
 	if channel == Button1:
 		if ynum!=1:
@@ -80,6 +82,7 @@ def updateBoard(channel):
 			stdscr.addstr(position_y, position_x, "X")
 			stdscr.refresh()
 			xnum=xnum+1
+	time.sleep(0.03)
 
 print("Running...")
 
@@ -95,7 +98,7 @@ try:
 
 		elif c== ord('c'):
 			stdscr.clear()
-			position_x=10
+			position_x=0
 			position_y=0
 			xnum=1
 			ynum=1	
