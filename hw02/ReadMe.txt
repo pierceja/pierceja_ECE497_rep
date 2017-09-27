@@ -3,3 +3,7 @@ This directory includes two programs. The ledBLINK.py program controls 4 LEDs
 program is a simple etch_a_sketch game where the position is controlled with
 push buttons instead of the keyboard. The instructions for this program are
 printed when you run it. No additional add-ons need to be installed.
+
+# Comments from Prof. Yoder
+# Looks good.  
+# Grade:  10/10
