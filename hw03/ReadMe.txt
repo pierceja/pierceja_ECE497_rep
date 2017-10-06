@@ -23,3 +23,7 @@ Added after the demo:
 The users current position on the display is yellow now to keep track of where
 they are. The Mode button on the beaglebone clears the display while the Pause
 button quits the program.
+
+# Comments from Prof. Yoder
+# Looks good.  Nice instructions.
+# Grade:  10/10
