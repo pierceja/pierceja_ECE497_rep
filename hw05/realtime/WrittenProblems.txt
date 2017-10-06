@@ -1,0 +1,16 @@
+These are my answers to written problems 1-4 for homework 5:
+
+1. The message "matrix" is sent to the bone. The connect function is executed in the matrixLED.js. Once connected, the matrix function is called which transfers any pre-existing data from the LED 
+matrix to the web server so that the website can match whatevers on the matrix. matrixLED.js uses the .css file to change the colors of the LEDs on the website. When an LED is clicked on the 
+website, the LEDclick function executes. It grabs the data, sends it to the bone, then updates the website
+
+2. As mentioned in problem 1, when an LED is clicked, the position (i and j) are used in the LEDclick function in matrixLED.js. The position is used to send the correct data to the bone so that the
+correct LED is turned on. The .css file is also used to change the color on the website when this function executes.
+
+3. The .on section controls the LED color and it is used by adding or removing this class.
+
+4. What I would like to do is everytime an LED is clicked, I would like to use the position to find the spots in the data array that contain the red and green data values for the corresponding
+LED. I plan to use a set of cases to determine how to change the color. For example, if the bit that controls if a certain LED is green has the value of 1, I will change the red value to one,
+making the LED orange. If both the red and green bits are one, I will turn the green bit off to make the LED red. I will have to add two more classes to the .css file so that I can make the
+LED orange and red. I will also have to set some cases to change the website to the correct color. For example, if the red and green bit are 1 for a certain LED, add the orange class to make the
+LED on the website orange. The bone gets "matrix" when a connection occurs. The browser sends data to the bone when an LED is clicked. The bone sends data to the browser during the inital startup.
