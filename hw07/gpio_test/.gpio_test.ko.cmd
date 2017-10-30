@@ -1,0 +1,1 @@
+cmd_/home/debian/pierceja_ECE497_rep/hw07/gpio_test/gpio_test.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o /home/debian/pierceja_ECE497_rep/hw07/gpio_test/gpio_test.ko /home/debian/pierceja_ECE497_rep/hw07/gpio_test/gpio_test.o /home/debian/pierceja_ECE497_rep/hw07/gpio_test/gpio_test.mod.o
